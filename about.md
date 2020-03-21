@@ -1,9 +1,28 @@
 ---
 layout: page
-title: about
+title: About
 permalink: /about/
 ---
 
-Bavaria ipsum dolor sit amet hoid a bissal wos gehd ollaweil nomoi. Wolln mei Weißwiaschd sowos, koa Habedehre schaugn san. Foidweg sog i hoggd Kaiwe, wuid Marterl großherzig ned woar.
+<div class="row">
+<div class="column" markdown="1">
 
-Obandln singd Hendl spernzaln i hab an singan dringma aweng Hendl oamoi gwiss Fünferl. Xaver Auffisteign vasteh kumm geh i moan oiwei nia om auf’n Gipfe hoam obandeln.
+This site was created as a way to share some photographs, while avoiding the major platforms.
+
+
+
+The site was built by adapting [Simone Arpe](https://github.com/simoarpe)'s code.
+
+
+
+All images are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).  
+Please credit "caprenter" and link back to this site.
+
+
+</div>
+<div class="column" markdown="1">
+
+![caprenter](/assets/IMG_0232.JPG)
+    
+</div>
+</div>

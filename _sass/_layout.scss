@@ -1,7 +1,16 @@
 /**
  * Site header
  */
- .wrapper .container {
+body {
+	margin:0;
+	color: #2c3135;
+}
+
+a {
+    color: #6f0caa;
+}
+ 
+.wrapper .container {
     max-width: 80rem;
 }
 
@@ -11,6 +20,19 @@
 
 .navbar {
     display: block;
+    background: #606c76;
+}
+
+nav a.navbar-brand {
+	font-size: 2em;
+}
+
+nav a {
+	color: #fff;
+}
+
+nav a:focus, nav a:hover {
+    color: #000;
 }
 
 .nav-item {
