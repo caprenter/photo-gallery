@@ -22,7 +22,7 @@ Please credit "caprenter" and link back to this site.
 </div>
 <div class="column" markdown="1">
 
-![caprenter](/assets/IMG_0232.JPG)
+![Teasle](../assets/IMG_0232.JPG)
     
 </div>
 </div>
