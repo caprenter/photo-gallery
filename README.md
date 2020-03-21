@@ -1,4 +1,4 @@
-#Photo Gallery
+# Photo Gallery
 
 This project is based off Azores Image Gallery (see below)
 
