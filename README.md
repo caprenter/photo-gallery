@@ -7,6 +7,21 @@ It is used to drive the site at https://caprenter.github.io/photo-gallery/
 All images in this repository and on the site are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).  
 Please credit "caprenter" and link back to this site.
 
+## How to..
+
+In order to get this to work with GitHub Pages I have to:
+
+* Generate the site as a static site
+* Copy the _site directory that is created to docs/ (remove docs/ first if it exists)
+* Add an empty file called .nojekyll to prevent GitHub from trying to regenerate it
+* Set gitHub pages to work from the docs/ directory of master
+
+## Resize Images
+
+I use 
+
+  mogrify -resize "1000x1000>" <dir>*.JPG
+
 # Azores Image Gallery
 
 This project is a small Frankestein that was put together from other similar projects:  
