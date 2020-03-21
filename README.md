@@ -1,3 +1,12 @@
+#Photo Gallery
+
+This project is based off Azores Image Gallery (see below)
+
+It is used to drive the site at https://caprenter.github.io/photo-gallery/
+
+All images in this repository and on the site are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).  
+Please credit "caprenter" and link back to this site.
+
 # Azores Image Gallery
 
 This project is a small Frankestein that was put together from other similar projects:  
