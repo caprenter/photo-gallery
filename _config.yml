@@ -18,8 +18,8 @@ email: "caprenter@gmail.com"
 description: >- # this means to ignore newlines until "baseurl:"
   Photographs you may like. 
   Available for re-use under a Creative Commons Attribution-ShareAlike 4.0 International License.  
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/photo-gallery" # the subpath of your site, e.g. /blog
+url: "httpa://caprenter.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  caprenter
 
