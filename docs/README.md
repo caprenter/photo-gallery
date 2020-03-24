@@ -16,6 +16,12 @@ In order to get this to work with GitHub Pages I have to:
 * Add an empty file called .nojekyll to prevent GitHub from trying to regenerate it
 * Set gitHub pages to work from the docs/ directory of master
 
+## Resize Images
+
+I use 
+
+  mogrify -resize "1000x1000>" <dir>*.JPG
+
 # Azores Image Gallery
 
 This project is a small Frankestein that was put together from other similar projects:  
