@@ -19,9 +19,43 @@ In order to get this to work with GitHub Pages I have to:
 ## Resize Images
 
 I use 
-
+```
   mogrify -resize "1000x1000>" <dir>*.JPG
+```  
+## Adding new images to the site
+ 
+Put the new images in a directory (New) and resize them
+```  
+  mogrify -resize "1000x1000>" New/*.JPG
+```  
+Put the resized images in the correct directories
+Delete the 'New' directory
 
+Run the jekyll server
+```  
+  bundle exec jekyll server
+```  
+Use rsync to copy the changed files to the docs directory
+```  
+  rsync -avzh --delete _site/ docs/
+```  
+Jekyll will also copy the old docs/ directory into the new site, so remove it
+ ```   
+  rm -r docs/docs/
+```    
+Add the new files to the git repo
+```   
+  git add docs/
+  git add photos/
+```  
+Commit the new site to the master branch of the repo  
+```    
+  git commit -a 
+```  
+Push 'master' to the server  
+```  
+  git push origin master 
+```  
 # Azores Image Gallery
 
 This project is a small Frankestein that was put together from other similar projects:  
